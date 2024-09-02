@@ -1,0 +1,241 @@
+/* common shered style  */
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    color: aliceblue;
+    background-color: #FD6E0A;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+
+}
+
+
+
+                                                     /* header nav style  */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    /* text-decoration: none; */
+}
+nav li{
+    margin-left: 30px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+.menus-text{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+/*banner section style  */
+.banner-img{
+    width: 600px;
+    margin-bottom: -4px;
+
+}
+header{
+    background-color: hsl(25, 100%, 98%);
+    background-image: url("../images/header_bg.png"), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, center left;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 30px 0 150px;
+}
+.banner-intro{
+    font-size: 40px;
+}
+.banner-title{
+font-size: 72px;
+}
+.banner-descripton{
+
+}
+.banner-content{
+    line-height: 30px;
+    max-width: 500px;
+    padding-bottom: 150px;
+}
+
+/* about container  */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.list-container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.about-container{
+    background-color:#fff8f3 ;
+    margin: 100px 0px;
+    padding: 100px;
+    /* margin: 0px auto; */
+}
+.section-description{
+    /* max-width: 800px; */
+    text-align: center;
+    padding: 0px 100px;
+}
+.section-title{
+    text-align: center;
+    font-size: 35px;
+}
+
+/* what i do style  */
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.box{
+    height: 300px;
+    width: 200px;
+    /* border: 1px solid gray; */
+    padding: 30px;
+    box-shadow: 1px 1px 20px rgba(83, 80, 80, 0.404);
+    border-radius: 5px;
+}
+.box-title{
+    font-size: 22px;
+}
+.box-description{
+    color: rgb(59, 56, 56);
+}
+/* resume section  */
+.resume-subtitle{
+    color: rgb(179, 175, 170);
+}
+.resume-description{
+    color: rgb(155, 149, 142);
+}
+.resume-container{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.resume-box{
+    padding-right: 50px;
+}
+.btn-div{
+    /* background-color: blue; */
+    /* margin: 0 auto; */
+    text-align: center;
+    padding-bottom:100px ;
+     
+}
+.btn-cv{
+    color: aliceblue;
+    background-color: #FD6E0A;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+/* footer styles  */
+footer{
+    background-color: #fff8f3;
+}
+.foot-icon{
+   /* background-color: #FD6E0A; */
+}
+.footer-container{
+    /* text-align: center; */
+    gap: 50px;
+    padding: 100px 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+form input[type="text"], input[type="email"], textarea{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+.foot-col{
+    width: 50%;
+}
+.footer-heading{
+    color: black;
+    font-size: 24px;
+}
+
+                            /* Responsive Part  */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px)     {
+   .box-container{
+    flex-direction: column;
+    padding-left: 50px;
+    
+   }  
+   .section-description{
+    padding: 0 50px;
+    text-align:justify;
+   }  
+   .resume-container{
+    flex-direction: column;
+    padding-left: 50px;
+   }
+   .footer-container{
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+   }
+   .foot-col{
+      width: 100%;
+   }
+   form input[type="text"], input[type="email"], textarea{
+    width: 70%;
+   }
+   .about-container{
+    padding: 50px 20px;
+   }
+   .list-container{
+    flex-direction: column;
+   }
+}
+@media screen and (min-width:576px) and (max-width:992px){
+
+
+}
