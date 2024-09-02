@@ -211,7 +211,7 @@ form input[type="text"], input[type="email"], textarea{
 
     .header{
         flex-direction: column;
-        /* background-image: none; */
+        background-image: none;
         text-align: center;
     }
     .banner{
