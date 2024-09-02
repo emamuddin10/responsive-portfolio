@@ -234,6 +234,10 @@ form input[type="text"], input[type="email"], textarea{
    .list-container{
     flex-direction: column;
    }
+   .section-title{
+    padding: 15px 30px;
+    /* font-size: 24px; */
+   }
 }
 @media screen and (min-width:576px) and (max-width:992px){
 
